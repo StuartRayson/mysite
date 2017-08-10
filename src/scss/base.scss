@@ -1,3 +1,13 @@
 h1 {
   text-align: center;
 }
+
+.img-wrapper{
+  text-align: center;
+
+  img{
+    display: inline-block;
+    width: 90%;
+    max-width: 500px;
+  }
+}
