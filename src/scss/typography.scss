@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
 
-$base-font: 'Roboto';
+
+$base-font: 'Quicksand', sans-serif;
 $title-padding: 3em 1em 1em;
 
 h1 {
   font-family: $base-font;
   padding: $title-padding;
+  font-weight: 300;
+  text-align: center;
 }
