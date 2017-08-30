@@ -1,13 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+
+$base-font: 'Quicksand', sans-serif;
+$title-padding: 3em 1em 1em;
+
 body {
   color: #fff;
   background: #465F78;
+  font-family: $base-font;
 }
 
+h1 {
+  font-family: $base-font;
+  padding: $title-padding;
+  font-weight: 300;
+  text-align: center;
+}
 
-.img-wrapper{
+p {
+  text-align: center;
+}
+
+.quick-links {
+  text-align: center;
+  margin-top: 2rem;
+
+  a {
+    padding: 0.5rem;
+    display: inline-block;
+
+    &:hover {
+      svg {
+        fill: #CDCDCD;
+      }
+    }
+    &[title="linkedin"] {
+      position: relative;
+      top: -3px;
+    }
+  }
+
+  svg {
+    fill: #fff;
+  }
+}
+
+.img-wrapper {
   text-align: center;
 
-  img{
+  img {
     display: inline-block;
     width: 90%;
     max-width: 300px;
